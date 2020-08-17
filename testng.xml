@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="PageObjectModelProject" verbose="1" annotations="JDK">
+
+    <test name="Page Object Model Project">
+
+        <classes>
+
+            <class name="pom.test.HomePageTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
