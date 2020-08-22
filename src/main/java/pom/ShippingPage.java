@@ -50,5 +50,4 @@ public class ShippingPage extends BasePage {
         Assert.assertEquals(validationString, expectedString);
 
     }
-
 }

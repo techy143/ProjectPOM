@@ -21,7 +21,6 @@ public class MemberProfilePage extends BasePage {
     @FindBy(xpath = "//*[@class='headline-1 mex-header-title']")
     WebElement validationStringElementFour;
 
-
     public void memberProfile(String expectedString) throws InterruptedException {
         clickOnElement(memberHomepage);
         clickOnElement(myAccount);
@@ -30,5 +29,4 @@ public class MemberProfilePage extends BasePage {
 
 
     }
-
 }

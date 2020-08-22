@@ -14,20 +14,17 @@ public class HomePageTest extends BasePageTest {
 
     public void testTwo() throws InterruptedException {
         cartPage.iteamViewOnCart("Summary");
-
     }
 
     @Test(priority = 3)
 
     public void testThree() throws InterruptedException {
         loginPage.loginAccount("Shakib Hassan");
-
     }
 
     @Test(priority = 4)
     public void testFour() throws InterruptedException {
         shippingPage.addressForshipping("CHECKOUT");
-
     }
 
     @Test(priority = 5)
@@ -35,5 +32,4 @@ public class HomePageTest extends BasePageTest {
         memberProfilePage.memberProfile("Shakib Hassan");
 
     }
-
 }

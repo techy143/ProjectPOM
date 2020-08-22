@@ -19,7 +19,6 @@ public class BasePageTest {
     public ShippingPage shippingPage;
     public MemberProfilePage memberProfilePage;
 
-
     @BeforeClass
     public void setUpMethod() {
         initilization();
@@ -39,7 +38,6 @@ public class BasePageTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         driver.get("https://www.nike.com/");
-
     }
 
     @AfterClass

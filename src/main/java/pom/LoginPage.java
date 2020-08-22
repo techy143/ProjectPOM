@@ -14,7 +14,6 @@ public class LoginPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-
     //@FindBy(xpath = "//*[@data-automation='go-to-checkout-button']")
     @FindBy(xpath = "(//*[@class='css-hj4k3g e1qel1sl4'])[1]")
 
@@ -43,6 +42,4 @@ public class LoginPage extends BasePage {
         Thread.sleep(2000);
 
     }
-
-
 }
